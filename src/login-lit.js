@@ -99,7 +99,7 @@ class LoginLit  extends LitElement {
         
 
         if(!!email && !!pass && !error) {
-            this.dispatchEvent(new CustomEvent('signin', {
+            this.dispatchEvent(new CustomEvent('sign-in', {
                 detail: true
             }));
         }

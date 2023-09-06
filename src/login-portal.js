@@ -24,7 +24,7 @@ export class LoginPortal extends LitElement {
         ${this.login
             ? html`<h1>Welcome!</h1>`
             : html`
-                <login-lit @signin="${this._hiddenLogin}"></login-lit>
+                <login-lit @sign-in="${this._hiddenLogin}"></login-lit>
             `}
         `;
     }
